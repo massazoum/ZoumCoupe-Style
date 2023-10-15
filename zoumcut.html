@@ -3,22 +3,28 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="styles/mobile.css">
  <link rel="stylesheet" href="styles/pc.css">
+ <link rel="stylesheet" href="styles/mobile.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+ <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+ <link rel="stylesheet" href="styles/style2.css">
  <title>Zoumstyle</title>
 </head>
 <body>
  <div id="prevInfo">
   <nav>
    <ul>
-    <li id="Horaire">Horaire: Lundi - samedi 8h00 à 23h00</li>
-    <li id="lieu"><a href="">  Schönhauser Allee 167c 10435 Berl in London </a></li>
-    <li id="gmail"><a href=""></a>Zoumaniguimassa12@gmail.com</li>
-    <li id="numero"><a href="">+224 627196928</a></li>
+    <li id="Horaire"><i class='fa-solid fa-clock' style='color: white'></i>Horaire: Lundi - samedi 8h00 à 23h00</li>
+
+    <li id="gmail"><i class='fas fa-inbox' style='color: white'></i><a href="">Zoumaniguimassa12@gmail.com</a></li>
+    <li id="numero"><a href=""><i class='fas fa-phone-alt' style='color: #fff'></i>+224 627196928</a></li>
    </ul>
   </nav>
  </div>
+
+ <!-- Header -->
+
  <header>
   <nav>
    <ul>
@@ -26,14 +32,13 @@
     <li class="iconleft"><a href="https://www.facebook.com/massa.zoumanigui.96" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook icon"></i></a></li>
     <li class="iconleft"><a href="https://github.com/massazoum" target="_blank" rel="noopener noreferrer"><i class="fab fa-github icon" aria-hidden="true"></i></a></li>
     <li class="iconleft"><a href="https://www.linkedin.com/in/zoumtechmassa" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin icon" aria-hidden="true"></i></a></li>
-    
-    <li id="Accuiel"><a href="">Accuiel</a></li>
     <li id="service"><a href="">services</a></li>
     <li id="Coifeur"><a href="">Coifeur</a></li>
     <li id="reserver"><a href="">reserver</a></li>
     <li id="contacter"><a href="">contacter</a></li>
-    <li id="apropos"><a href="">apropos</a></li>
+    <li id="Accuiel"><a href="">Accuiel</a></li>
    </ul>
+    
   </nav>
  </header>
 
@@ -73,11 +78,9 @@
   
  </section>
 
-
  <!-- <section id="about">
 
  </section> -->
-
 
  <section id="equipe">
 
@@ -99,7 +102,9 @@
   <div id="popular">
    <h1>New mode de coiffure</h1>
    <div class="popmodes">
-    <div class="popmode"></div>
+    <div class="popmode">
+     <img src="./Media/imgaes/imagez.jpg" alt="">
+    </div>
     <div class="popmode"></div>
     <div class="popmode"></div>
    </div>
@@ -107,24 +112,271 @@
 
  </section>
 
+ <!-- """""""""""""""""""""""""""""""""""""""""" -->
+
  <section id="TravailleurSection">
-<h1></h1>
-<p></p>
+<h1 class="txtTravail">StyleMasters</h1>
 
-<div id="Travailleurcards">
+<p class="txtTravail" > Au Salon Zoum Belle Chevelure, nous sommes passionnés par l'art de la coiffure et nous sommes déterminés à vous aider à atteindre la meilleure version de vous-même. Notre équipe de coiffeurs hautement qualifiés et créatifs se consacre à répondre à vos besoins capillaires, que ce soit pour une coupe tendance, une coloration éclatante ou une coiffure élégante pour une occasion spéciale.
+</p>
 
- <div class="Travailleurcards">
-  <img src="" alt="">
-  <h1></h1>
-  <p></p>
-  <div>
+<div class="slide-container swiper">
+  <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile1.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile2.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                  <button class="button">View More</button>
+                  <button class="button">View More</button>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile3.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile4.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile5.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile6.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile7.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                  <button class="button">View More</button>
+                  <button class="button">View More</button>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile8.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/profile9.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">David Dell</h2>
+                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="bntReserver">
+                    <button class="button">View More</button>
+                  <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
- </div>
- <div class="Travailleurcards"></div>
- <div class="Travailleurcards"></div>
 
+  <div class="swiper-button-next swiper-navBtn"></div>
+  <div class="swiper-button-prev swiper-navBtn"></div>
+  <div class="swiper-pagination"></div>
 </div>
+
+
+
+
+
+
+
+
+
  </section>
 
+
+ <section id="levelTraval">
+
+  <div class="quantité"> <h2>2000px</h2></div>
+  <div class="quantité"> <h2>2000px</h2></div>
+  <div class="quantité"> <h2>2000px</h2></div>
+  <div class="quantité"> <h2>2000px</h2></div>
+  
+ </section>
+
+ <section id="BLOG">
+  <h1></h1>
+  <p></p>
+
+ </section>
+
+
+ <footer>
+  <div id="localisation"></div>
+  <div id="contact">
+    <form class="form0" action="https://formspree.io/f/xknabrpb" method="post">
+    
+      <input type="text" class="inp-name" name="name" id="" maxlength="30" placeholder="Massa zoumanigui" data-aos="fade-left"  required>
+
+      <input type="email" class="inp-email" name="name" id="email" placeholder="zoumaniguimass12@gmail.com" data-aos="fade-right"  required>
+
+      <textarea name="user_message" class="inp-text" id="textarea"  placeholder="Write your message here" maxlength="500" data-aos="fade-left" required></textarea>
+                    
+      <button class="submit0" type="submit"> Contact </button>
+      
+      <div class="error-message"> </div>
+  </form>
+  </div>
+
+ </footer>
+
+ <div class="dev">
+  <div>Developpeur : Massa zoumanigui </div>
+ </div>
+
+ <div id="menumobile">   
+
+  <ul>
+    <li id="Accuiel"><a href="">Accuiel</a></li>
+    <li id="service"><a href="">services</a></li>
+    <li id="Coifeur"><a href="">Coifeur</a></li>
+    <li id="reserver"><a href="">reserver</a></li>
+    <li id="contacter"><a href="">contacter</a></li>
+  </ul>
+
+  <div id="verte">
+  </div>
+
+  <div id="rouge">
+  </div>
+
+  <div id="blanch">
+  </div>
+
+  <div id="jaunne">
+  </div>
+ 
+</div>
+
+ 
+<button id="btnbars"> <i class='fa fa-bars' style='color: rgb(22, 212, 219)'></i> </button>
+<button type="button" id="btntimes"><i class='fa fa-times' style='color: rgb(22, 212, 219)'></i></button>
+
+
+ <script src="interaction/index.js"></script>
 </body>
+
+<!-- Swiper JS -->
+<script src="interaction/swiper-bundle.min.js"></script>
+    <!-- JavaScript -->
+<script src="interaction/script.js"></script>
 </html>
