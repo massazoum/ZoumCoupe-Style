@@ -17,14 +17,12 @@
    <ul>
     <li id="Horaire"><i class='fa-solid fa-clock' style='color: white'></i>Horaire: Lundi - samedi 8h00 à 23h00</li>
 
-    <li id="gmail"><i class='fas fa-inbox' style='color: white'></i><a href="">Zoumaniguimassa12@gmail.com</a></li>
-    <li id="numero"><a href=""><i class='fas fa-phone-alt' style='color: #fff'></i>+224 627196928</a></li>
+    <li id="gmail"><i class='fas fa-inbox' style='color: white'></i><a href="mailto:zoumaniguimassa12@gmail.com">Zoumaniguimassa12@gmail.com</a></li>
+    <li id="numero"><i class='fas fa-phone-alt' style='color: #fff'></i>+224 627196928</li>
    </ul>
   </nav>
  </div>
-
  <!-- Header -->
-
  <header>
   <nav>
    <ul>
@@ -32,11 +30,11 @@
     <li class="iconleft"><a href="https://www.facebook.com/massa.zoumanigui.96" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook icon"></i></a></li>
     <li class="iconleft"><a href="https://github.com/massazoum" target="_blank" rel="noopener noreferrer"><i class="fab fa-github icon" aria-hidden="true"></i></a></li>
     <li class="iconleft"><a href="https://www.linkedin.com/in/zoumtechmassa" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin icon" aria-hidden="true"></i></a></li>
-    <li id="service"><a href="">services</a></li>
-    <li id="Coifeur"><a href="">Coifeur</a></li>
-    <li id="reserver"><a href="">reserver</a></li>
-    <li id="contacter"><a href="">contacter</a></li>
-    <li id="Accuiel"><a href="">Accuiel</a></li>
+    <li id="service"><a href="#services">services</a></li>
+    <li id="boutiques"><a href="#boutique">Boutique</a></li>
+    <li id="reservation"><a href="#programmer">Reservation</a></li>
+    <li id="contacter"><a href="#equipe">Equipe</a></li>
+    <li id="Accueil"><a href="#zoneAccueil">Accuiel</a></li>
    </ul>
     
   </nav>
@@ -44,43 +42,16 @@
 
  <section id="zoneAccueil">
   
- </section>
+</section>
 
  <section id="services">
   <h1>Nos services</h1>
 
   <div id="sectionCards">
-   <div class="sectionCard">
-    <img src="./Media/imgaes/Untitled.png" alt="">
-    <h2>Coupe de cheveux </h2>
-    <p>: Les coiffeurs sont spécialisés dans la coupe de cheveux pour hommes, femmes et enfants. Ils peuvent vous aider à choisir un style qui correspond à votre personnalité et à votre apparence.</p>
-   </div>
-
-   <div class="sectionCard">
-    <img src="./Media/imgaes/Untitled1.png" alt="">
-    <h2>Coloration des cheveux</h2>
-    <p> Les coiffeurs peuvent également vous coiffer pour des occasions spéciales, comme des mariages, des fêtes ou d'autres événements. Ils peuvent réaliser des coiffures élaborées, des boucles, des chignons, et bien plus encore.</p>
-   </div>
-
-   <div class="sectionCard">
-    <img src="./Media/imgaes/Z.png" alt="">
-    <h2>Coiffure et coiffage </h2>
-    <p>Les salons de coiffure offrent souvent des services de coloration des cheveux pour couvrir les cheveux gris, changer de couleur ou ajouter des reflets. Cela peut inclure des mèches, des teintures, des décolorations, etc.</p>
-   </div>
-
-   <div class="sectionCard">
-    <img src="./Media/imgaes/r.png" alt="">
-    <h2>Soins capillaires</h2>
-    <p>: Les coiffeurs sont spécialisés dans la coupe de cheveux pour hommes, femmes et enfants. Ils peuvent vous aider à choisir un style qui correspond à votre personnalité et à votre apparence.</p>
-   </div>
-
+<!-- affichage dynamique -->
   </div>
   
  </section>
-
- <!-- <section id="about">
-
- </section> -->
 
  <section id="equipe">
 
@@ -88,12 +59,12 @@
    <h1>A propos de nous</h1>
    <p> Zoum Belle Chevelure est un salon de coiffure de renom situé au cœur de Conakry, en Guinée. Notre équipe de coiffeurs hautement qualifiés et passionnés est dédiée à vous aider à réaliser la coiffure de vos rêves. Que vous souhaitiez une coupe tendance, une nouvelle couleur éclatante ou une coiffure élégante pour une occasion spéciale, nous sommes là pour répondre à tous vos besoins capillaires.</p>
    <div class="buttons">
-    <button type="button">
-
+    <button type="button" class="btnapropos" >
+ Consultation
     </button>
 
-    <button type="button">
-     
+    <button class="btnapropos" type="button">
+     Fiche d'emploie
     </button>
 
    </div>
@@ -103,10 +74,17 @@
    <h1>New mode de coiffure</h1>
    <div class="popmodes">
     <div class="popmode">
-     <img src="./Media/imgaes/imagez.jpg" alt="">
+       <p>Gérant de Salon de Coiffure </p>
+     <img src="./Media/images/profile11.jpg" alt="">
     </div>
-    <div class="popmode"></div>
-    <div class="popmode"></div>
+    <div class="popmode">
+        <p>Assistant administratif</p>
+        <img src="./Media/images/profile8.jpg" alt="">
+    </div>
+    <div class="popmode">
+        <p>les Clients et du Marketing</p>
+        <img src="./Media/images/profile6.jfif" alt="">
+    </div>
    </div>
   </div>
 
@@ -122,194 +100,92 @@
 
 <div class="slide-container swiper">
   <div class="slide-content">
-      <div class="card-wrapper swiper-wrapper">
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile1.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile2.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
-                  <button class="button">View More</button>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile3.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile4.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile5.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile6.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile7.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
-                  <button class="button">View More</button>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile8.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-          <div class="card swiper-slide">
-              <div class="image-content">
-                  <span class="overlay"></span>
-
-                  <div class="card-image">
-                      <img src="images/profile9.jpg" alt="" class="card-img">
-                  </div>
-              </div>
-
-              <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <div class="bntReserver">
-                    <button class="button">View More</button>
-                  <button class="button">View More</button>
-                  </div>
-              </div>
-          </div>
-      </div>
+      <div id="cardswipper" class="card-wrapper swiper-wrapper">
+<!-- Affichage dynamique -->
   </div>
 
   <div class="swiper-button-next swiper-navBtn"></div>
   <div class="swiper-button-prev swiper-navBtn"></div>
   <div class="swiper-pagination"></div>
 </div>
-
-
-
-
-
-
-
-
-
  </section>
 
 
+<section id="programmer">
+
+
+    <div class="dispoHeurs_containeur">
+        <h2>Heures d’ouverture</h2>
+       <div class="dispoHeursDiv">
+        <div class="dispoHeurs">
+            <h3>Lundi</h3>
+            <p>9:00 AM - 6:00 PM</p>
+        </div>
+        <div class="dispoHeurs">
+            <h3>Mardi</h3>
+            <p>9:00 AM - 6:00 PM</p>
+        </div>
+        <div class="dispoHeurs">
+            <h3>Mercredi</h3>
+            <p>9:00 AM - 6:00 PM</p>
+        </div>
+        <div class="dispoHeurs">
+            <h3>Jeudi</h3>
+            <p>9:00 AM - 6:00 PM</p>
+        </div>
+        <div class="dispoHeurs">
+            <h3>Vendredi</h3>
+            <p>9:00 AM - 6:00 PM</p>
+        </div>
+        <div class="dispoHeurs">
+            <h3>Saturday</h3>
+            <p>9:00 AM - 5:00 PM</p>
+        </div>
+        <div class="dispoHeurs">
+            <h3>Sunday</h3>
+            <p>Closed</p>
+        </div>
+       </div>
+    </div>
+
+    <div class="reservation_containeur">
+        <h2>Reservez votre place</h2>
+        <p> votre appointment with us now!</p>
+        <form>
+            <label for="clientNom">Nom</label>
+            <input type="text" id="clientNom" name="clientName" required>
+
+            <label for="clientNumero">Numero</label>
+            <input type="number" id="clientNumero" name="clientName" required>
+            
+            <label for="reservationDate">Date:</label>
+            <input type="date" id="reservationDate" name="reservationDate" required>
+            
+            <label for="reservationTime">Heur</label>
+            <input type="time" id="reservationheur" name="reservationTime" required>
+
+            <button id="soumissionbtn" type="button">Submit</button>
+        </form>
+    </div>
+</section>
+
+<section id="boutique">
+    <h2>Boutique de Matériels de Coiffure</h2>
+    <div id="produitDiv">
+        <!-- affichage dynamique -->
+    </div>
+    
+</section>
+
  <section id="levelTraval">
 
-  <div class="quantité"> <h2>2000px</h2></div>
-  <div class="quantité"> <h2>2000px</h2></div>
-  <div class="quantité"> <h2>2000px</h2></div>
-  <div class="quantité"> <h2>2000px</h2></div>
+  <div class="quantité"><div class="row"><h2>Expérience</h2> <h2>2000px</h2></div></div>
+  <div class="tiretLike"></div>
+  <div class="quantité"> <div class="row"><h2>Clients Coiffés</h2><h2>2000px</h2></div></div>
+  <div class="tiretLike"></div>
+  <div class="quantité"><div class="row"><h2>Qualité des Services</h2> <h2>2000px</h2></div></div>
+  <div class="tiretLike"></div>
+  <div class="quantité"><div class="row"><h2>Tendances et Innovation</h2> <h2>2000px</h2></div></div>
   
  </section>
 
@@ -323,6 +199,7 @@
  <footer>
   <div id="localisation"></div>
   <div id="contact">
+   <h2> Contactez Nous</h2>
     <form class="form0" action="https://formspree.io/f/xknabrpb" method="post">
     
       <input type="text" class="inp-name" name="name" id="" maxlength="30" placeholder="Massa zoumanigui" data-aos="fade-left"  required>
@@ -332,17 +209,16 @@
       <textarea name="user_message" class="inp-text" id="textarea"  placeholder="Write your message here" maxlength="500" data-aos="fade-left" required></textarea>
                     
       <button class="submit0" type="submit"> Contact </button>
-      
-      <div class="error-message"> </div>
+
+      <div class="Portfolio">
+        <p>Développé par <span>  Massa zoumanigui </span></p>
+        <a href="https://massazoum.github.io/PRT" target="_blank">Portfolio</a>
+    </div>
   </form>
   </div>
-
+  
  </footer>
-
- <div class="dev">
-  <div>Developpeur : Massa zoumanigui </div>
- </div>
-
+ <h2 id="copy">&copy; 2023 Zoumtech. Tous droits réservés.</h2>
  <div id="menumobile">   
 
   <ul>
@@ -371,12 +247,12 @@
 <button id="btnbars"> <i class='fa fa-bars' style='color: rgb(22, 212, 219)'></i> </button>
 <button type="button" id="btntimes"><i class='fa fa-times' style='color: rgb(22, 212, 219)'></i></button>
 
-
  <script src="interaction/index.js"></script>
 </body>
-
 <!-- Swiper JS -->
 <script src="interaction/swiper-bundle.min.js"></script>
     <!-- JavaScript -->
 <script src="interaction/script.js"></script>
+
+<script src="interaction/apireservation.js"></script>
 </html>

@@ -128,6 +128,10 @@
   background-color: #081f37
 }
 
+/* Function css creation */
+
+
+
 @media screen and (max-width: 768px) {
   .slide-content{
     margin: 0 10px;

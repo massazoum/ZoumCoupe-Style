@@ -6,8 +6,13 @@
 body {
  padding: 0;
  margin: 0;
- /* background: url(/Media/imgaes/fondbody.jpg) fixed no-repeat; */
+ background: url(/Media/imgaes/fondbody.jpg) fixed repeat;
  background-size: cover;
+ font-family:  'Roboto', sans-serif;;
+}
+
+#btnbars , #btntimes { 
+  display: none;
 }
 
 /* Pre header */
@@ -59,7 +64,7 @@ height: 60px;
 z-index: 20;
 padding-top: 20px;
 background-color: #ffffffbe;
-border-bottom: #081f37 solid 1px;
+border-bottom: #f31414 solid 1px;
 }
 
 .iconleft {
@@ -75,6 +80,11 @@ header li{
  margin-right: 30px;
 }
 
+#service ,#boutiques,#reservation,#contacter,#Accueil {
+  border: red 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+}
 header li a {
   color: #081f37;
   font-family: 'Roboto', sans-serif;
@@ -94,7 +104,8 @@ header li i {
 
 #services {
  margin-top: -20px;
- min-height: 80vh;
+ padding-bottom: 50px;
+ height: auto;
  background-color: #fff;
  box-shadow: -1px -2px 45px 9px rgba(0,0,0,0.5) inset;
  -webkit-box-shadow: -1px -2px 45px 9px rgba(0,0,0,0.5) inset;
@@ -110,14 +121,12 @@ padding-top: 10px;
 #sectionCards {
  display: flex;
  flex-wrap: wrap;
-
 }
 
 .sectionCard {
   position: relative;
  width: 22%;
   margin: 1.5%;
- 
 }
 
 .sectionCard p {
@@ -136,6 +145,11 @@ padding-top: 10px;
  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+transition: 0.5s;
+}
+
+.sectionCard img:hover {
+  border-radius: 35%;
 }
 
 /* equipe */
@@ -145,6 +159,8 @@ padding-top: 10px;
  background-color: #081f37;
  padding-top: 30px;
  color: #fff;
+ height: 50vh;
+ padding-bottom: 15px;
 
 }
 
@@ -164,10 +180,10 @@ padding-top: 10px;
 }
 
 #popular .popmode {
- width: 15vw;
+ width: auto;
  height: 15vw ;
- border: white 1px solid;
- margin: 10px;
+ margin: -10px 10px 10px 10px;
+ 
 }
 
 .popmode img {
@@ -175,11 +191,24 @@ padding-top: 10px;
   height: 90%;
   }
 
+  .btnapropos {
+    background-color: white;
+    color:#081f37;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
 /* Travailleur */
 
 #TravailleurSection {
   padding-top: 20px;
   background-color: rgb(35, 168, 178);
+}
+
+#TravailleurSection p {
+  padding-left:10%;
+  padding-right: 10%;
 }
 
 #TravailleurSection .txtTravail {
@@ -196,24 +225,39 @@ padding-top: 10px;
 #levelTraval {
   display: flex;
   flex-direction: row;
-  height: 30vh;
+  height: 40vh;
   background-color: black;
-  opacity: 0.9;
-  margin-top: -20px;
+  opacity: 0.7;
+  margin-bottom: -20px;
 }
 
 .quantité {
-  width: 25%;
+  width: 21%;
 }
 
 .quantité h2 {
   color: #fff;
+  margin-top: 13vh;
+  margin-left: 20px;
 }
 
+.row {
+display: flex;
+flex-direction: row;
+}
+
+.tiretLike {
+  width: 2px;
+  height: 80%;
+  margin: 20px 5px 5px 10%;
+  background-color: #fff;
+}
+/* footer */
 footer {
   display: flex;
   flex-direction: row;
   height: 70vh;
+  background-color: #fff;
 
 }
 
@@ -227,6 +271,10 @@ height: 100%;
 #contact {
 width: 50%;
 height: 100%;
+}
+
+#contact h2 {
+  text-align: center;
 }
 
 .form0 {
@@ -279,10 +327,218 @@ height: 100%;
   display: none;
 }
 
-#btnbars {
+#menumobile li {
   display: none;
+}
+ 
+
+/* Reservation de place */
+
+ #programmer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  opacity: 0.9;
  }
 
-#menumobile #service ,#menumobile #Coifeur ,#menumobile #reserver ,#menumobile #contacter ,#menumobile #Accuiel {
-  display: none;
- }
+.reservation_containeur {
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 30px 10px 30px 10px;
+  border: #081f37 solid 1px;
+}
+
+.reservation-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.reservation_containeur p {
+  font-size: 16px;
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+#clientNom {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 3.7%;
+  border: 1px solid #081f37;
+  border-radius: 5px;
+  font-size: 16px;
+}
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 3.7%;
+  border: 1px solid #081f37;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #081f37;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #081f37;
+}
+
+.dispoHeursDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dispoHeurs_containeur {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 30px 10px 30px 10px;
+  border: #081f37 solid 1px;
+}
+
+.opening-hours-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.dispoHeurs {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dispoHeurs h3 {
+  font-size: 18px;
+  color: #081f37;
+}
+
+.dispoHeurs p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+/* Section boutique */
+
+/* Style de la section de la boutique */
+#boutique {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Style des produits */
+.produit {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #081f37;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 300px;
+}
+
+/* Style des images de produits */
+.produit img {
+  width: 80%;
+  height: 150px;
+}
+
+/* Style des titres de produits */
+.produit h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style des descriptions de produits */
+.produit p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Style des prix de produits */
+.produit .prix {
+  font-size: 20px;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Style des boutons "Ajouter au panier" */
+.produit button {
+  background-color: #081f37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.produit button:hover {
+  background-color: #0056b3;
+}
+
+/* footer pour la zone du developpeur web */
+
+.Portfolio span{
+ color: tomato;
+}
+
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Portfolio p {
+  font-size: 16px;
+}
+
+
+.Portfolio a {
+  text-decoration: none;
+  color: #081f37;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Portfolio a:hover {
+  color: #0056b3;
+}
+
+#copy {
+  text-align: center;
+  font-size: larger;
+  color: #fff;
+}
