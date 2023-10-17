@@ -114,7 +114,7 @@ const afficheSwipper =()=>{
 
 const tableProduits = [
   {
-    image: './Media/boutique/Sèche-cheveux.jfif', 
+    image: './Media/boutique/sechecheveux.jfif', 
     title: 'Sèche-cheveux professionnel',
     text: 'Un sèche-cheveux puissant pour des résultats impeccables.',
     prix: '490',
