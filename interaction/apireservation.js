@@ -1,14 +1,8 @@
-// const axios = require('axios');
-
 const clientNom = document.getElementById('clientNom');
 const clientNumero = document.getElementById('clientNumero');
 const reservationDate = document.getElementById('reservationDate');
 const reservationheur = document.getElementById('reservationheur');
 const soumissionbtn = document.getElementById('soumissionbtn');
-
-
-
- 
 
   const recupere_reservations = async () => {
    try {
@@ -48,9 +42,6 @@ soumissionbtn.addEventListener('click' , ()=>{
   date:reservationDate.value,
   heur:reservationheur.value
 };
-
-
-
  
  ajout_reservations(newData)
  recupere_reservations()

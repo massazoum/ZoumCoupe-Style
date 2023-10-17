@@ -253,10 +253,10 @@ flex-direction: row;
   background-color: #fff;
 }
 /* footer */
-footer {
+#footer {
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  height: 75vh;
   background-color: #fff;
 
 }
@@ -538,7 +538,8 @@ button:hover {
 }
 
 #copy {
+  display: block;
   text-align: center;
   font-size: larger;
-  color: #fff;
+  color: #fff; 
 }
