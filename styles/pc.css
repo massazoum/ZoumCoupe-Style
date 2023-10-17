@@ -95,7 +95,7 @@ header li i {
 }
 
 #zoneAccueil {
- background: url(/Media/imgaes/imagez.jpg) no-repeat fixed ;
+ background: url(./Media/imgaes/imagez.jpg) no-repeat fixed ;
  background-size: cover;
  height: 100vh;
 }
@@ -262,7 +262,7 @@ footer {
 }
 
 #localisation {
-background: url('/Media/imgaes/gps.png') no-repeat;
+background: url('./Media/imgaes/gps.png') no-repeat;
 background-size: cover;
 width: 50%;
 height: 100%;
