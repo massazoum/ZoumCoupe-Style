@@ -6,7 +6,7 @@
 body {
  padding: 0;
  margin: 0;
- background: url(/Media/imgaes/fondbody.jpg) fixed repeat;
+ background: url(./Media/imgaes/fondbody.jpg) fixed repeat;
  background-size: cover;
  font-family:  'Roboto', sans-serif;;
 }
