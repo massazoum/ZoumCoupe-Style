@@ -8,23 +8,23 @@ const produitDiv =document.getElementById("produitDiv");
 
 const tablesectionCards = [
   {
- image :'./Media/imgaes/Untitled.png',
+ image :'./Media/imgaes/A1.jfif',
  title: 'Coupe de cheveux ' ,
  text :'Nos coiffeurs sont spécialisés dans la coupe de cheveux pour hommes, femmes et enfants. Ils peuvent vous aider à choisir un style qui correspond à votre personnalité et à votre apparence'
   },
   {
-    image :'./Media/imgaes/Untitled1.png',
+    image :'./Media/imgaes/A2.jfif',
     title: 'Coloration des cheveux' ,
     text :"coiffeurs spécialisés dans la coloration des cheveux sont des experts dans l'art de transformer la couleur des cheveux de leurs clients. Voici une description générale de ces coiffeurs spécialisés en coloration des cheveux "
   },
   {
-    image :'./Media/imgaes/Z.png',
+    image :'./Media/imgaes/A3.jfif',
     title:'Coiffure et coiffage',
  text :"Nos coiffeurs spécialisés en coiffure et coiffage sont des experts dévoués qui mettent leur passion et leur talent au service de votre style capillaire. Ils maîtrisent l'art de la coiffure sous toutes ses facettes, de la coupe aux coiffures élaborées."
   }
   ,
   {
-    image :'./Media/imgaes/r.png',
+    image :'./Media/imgaes/A5.jfif',
  title: 'Coupe de cheveux ' ,
  text :"Notre équipe de coiffeurs dévoués est passionnée par l'art de la coupe de cheveux et se consacre à vous offrir des résultats exceptionnels. Nos coiffeurs spécialisés dans la coupe de cheveux en global sont des experts dans la création de styles uniques et adaptés à chaque client."
   }
@@ -173,7 +173,7 @@ const afficheproduits =()=>{
     <h3>${element.title}</h3>
     <p>${element.text}</p>
     <span class="prix">${element.prix} FG</span>
-    <button>Ajouter au panier</button>
+    <button id="acheter">Acheter</button>
     `;
 
     produitDiv.appendChild(div);

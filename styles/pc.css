@@ -2,13 +2,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Roboto:ital,wght@1,700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Pacifico&display=swap');
 
-
 body {
  padding: 0;
  margin: 0;
  background:url(/Media/imgaes/fondbody.jpg) fixed repeat;
  background-size: cover;
- font-family:  'Roboto', sans-serif;;
+ font-family:  'Roboto', sans-serif;
+ scroll-behavior:smooth;
 }
 
 #btnbars , #btntimes { 
@@ -75,9 +75,13 @@ border-bottom: #f31414 solid 1px;
  color: #081f37;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header li{
  float: right;
- margin-right: 30px;
+ margin-right: 10px;
 }
 
 #service ,#boutiques,#reservation,#contacter,#Accueil {
@@ -100,11 +104,19 @@ header li i {
  height: 100vh;
 }
 
+#zoneAccueil h1 {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+ font-size: 50px;
+ color: rgb(218, 38, 38);
+}
+
 /* Services */
 
 #services {
  margin-top: -20px;
- padding-bottom: 50px;
+ padding-bottom: 100px;
  height: auto;
  background-color: #fff;
  box-shadow: -1px -2px 45px 9px rgba(0,0,0,0.5) inset;
@@ -114,8 +126,8 @@ header li i {
 
 #services h1 {
  text-align: center;
-font-family: 'robocup' , sans-serif;
-padding-top: 10px;
+ font-family: 'robocup' , sans-serif;
+ padding-top: 10px;
 }
 
 #sectionCards {
@@ -229,6 +241,7 @@ transition: 0.5s;
   background-color: black;
   opacity: 0.7;
   margin-bottom: -20px;
+  width: 100vw;
 }
 
 .quantité {
@@ -244,6 +257,8 @@ transition: 0.5s;
 .row {
 display: flex;
 flex-direction: row;
+margin-top: 2vh;
+color: #fff;
 }
 
 .tiretLike {
@@ -534,7 +549,7 @@ button:hover {
 }
 
 .Portfolio a:hover {
-  color: #0056b3;
+  color: #e6330a;
 }
 
 #copy {
@@ -542,4 +557,21 @@ button:hover {
   text-align: center;
   font-size: larger;
   color: #fff; 
+}
+
+#acheter {
+  margin-left: 20px;
+}
+
+.Portfolio img {
+  width: 30px;
+  height: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+section {
+  transition: 0.5s;
 }
