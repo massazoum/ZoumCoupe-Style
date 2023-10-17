@@ -6,7 +6,7 @@ const soumissionbtn = document.getElementById('soumissionbtn');
 
   const recupere_reservations = async () => {
    try {
-     const res = await fetch('http://localhost:3000/reservations');
+     const res = await fetch('https://backend-nodemongoose-style.onrender.com/reservations');
      const response = await res.json();
      console.log(response);
    } catch (error) {
@@ -17,7 +17,7 @@ const soumissionbtn = document.getElementById('soumissionbtn');
  
  const ajout_reservations = async(newData) => {
   try {
-    const res = await fetch('http://localhost:3000/reservations', {
+    const res = await fetch('https://backend-nodemongoose-style.onrender.com/reservations', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

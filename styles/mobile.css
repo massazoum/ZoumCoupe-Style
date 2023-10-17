@@ -4,6 +4,13 @@
     background-color: #081f37;
    }
 
+   body {
+    /* margin:-20px; */
+    background:url(/Media/imgaes/fondbody.jpg) fixed repeat;
+    background-size: cover;
+    font-family:  'Roboto', sans-serif;;
+   }
+
  header {
   z-index: 20;
  }
