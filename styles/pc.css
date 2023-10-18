@@ -106,10 +106,13 @@ header li i {
 
 #zoneAccueil h1 {
   position: absolute;
-  left: 40%;
+  left: 38%;
   top: 30%;
  font-size: 50px;
  color: rgb(218, 38, 38);
+ background-color: #081f37;
+ padding: 10px;
+ border-radius: 30px;
 }
 
 /* Services */
@@ -232,6 +235,11 @@ transition: 0.5s;
   display: flex;
 }
 
+#Acoiffé {
+  height: 30vh;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* levelTraval */
 
 #levelTraval {
@@ -345,7 +353,24 @@ height: 100%;
 #menumobile li {
   display: none;
 }
+
+.clientprogramme {
+  height: 100%;
+  width: 200px;
+  border: #fff solid 1px;
+  margin: 3px;
+  padding: 30px;
+}
  
+#Acoiffé_container {
+  display: flex; 
+  flex-direction: row;
+}
+
+#Acoiffé_container h2{
+  color: #fff;
+}
+
 
 /* Reservation de place */
 

@@ -3,16 +3,36 @@ const clientNumero = document.getElementById('clientNumero');
 const reservationDate = document.getElementById('reservationDate');
 const reservationheur = document.getElementById('reservationheur');
 const soumissionbtn = document.getElementById('soumissionbtn');
+const Acoiffé_container = document.getElementById('Acoiffé_container');
 
   const recupere_reservations = async () => {
    try {
      const res = await fetch('https://backend-nodemongoose-style.onrender.com/reservations');
      const response = await res.json();
      console.log(response);
+     response.forEach(element => {
+      const div = document.createElement('div');
+      div.className = 'clientprogramme';
+      div.innerHTML=`
+      <div>
+      <h2>${element.name}</h2>
+<h2>${element.numero}</h2>
+<h2>${element.date}</h2>
+<h2>${element.heur}</h2>
+</div>
+      `;
+      Acoiffé_container.appendChild(div)
+
+     });
+    
    } catch (error) {
      console.error(error);
    }
  };
+
+
+
+
  
  
  const ajout_reservations = async(newData) => {
@@ -26,6 +46,8 @@ const soumissionbtn = document.getElementById('soumissionbtn');
     });
     const response = await res.json();
     console.log(response);
+    Acoiffé_container.innerHTML='';
+    recupere_reservations()
   } catch (error) {
     console.error(error);
   }
@@ -33,7 +55,7 @@ const soumissionbtn = document.getElementById('soumissionbtn');
 
 
 
-
+ recupere_reservations()
 soumissionbtn.addEventListener('click' , ()=>{
 
  const newData = {
@@ -42,9 +64,10 @@ soumissionbtn.addEventListener('click' , ()=>{
   date:reservationDate.value,
   heur:reservationheur.value
 };
- 
- ajout_reservations(newData)
- recupere_reservations()
+ ajout_reservations(newData);
+ Acoiffé_container.innerHTML='';
+
+recupere_reservations()
 clientNom.value ='' ;
 clientNumero.value='';
 reservationDate.value ='';

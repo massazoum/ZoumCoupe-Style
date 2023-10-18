@@ -6,9 +6,13 @@
 
    body {
     /* margin:-20px; */
-    background:url(/Media/imgaes/fondbody.jpg) fixed repeat;
+    /* box-sizing: border-box; */
+
+    margin: 0;
+    /* background:url(/Media/imgaes/fondbody.jpg) fixed repeat; */
     background-size: cover;
     font-family:  'Roboto', sans-serif;;
+ 
    }
 
  header {
@@ -64,9 +68,9 @@
   z-index: 20;
   height: 94vh;
   width: 94vw;
- }
+ } */
  
- #verte {
+  #verte {
   position: fixed;
   top:0;
   left: 0;
@@ -167,7 +171,7 @@
 }
 
 #localisation {
-background: url('/Media/imgaes/gps.png') no-repeat;
+background:url(/Media/imgaes/gps.png) no-repeat;
 background-size: cover;
 width: 100%;
 height: 50%;
@@ -372,6 +376,15 @@ button:hover {
   font-size: 16px;
   color: #666;
 }
+
+
+  /* header, nav, main, section, footer {
+    width: 100%;
+    padding: 30px;
+    margin:0;
+     box-sizing: border-box;
+  } */
+
 
 }
 
