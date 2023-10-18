@@ -359,14 +359,22 @@ height: 100%;
 }
 
 .clientprogramme {
-  height: 200px;
+  height: 170px;
   width: 150px;
   margin-top: 20px;
   border: #fff solid 1px;
-  margin: 3px;
+  margin: 5px;
   padding: 30px;
 }
  
+#Acoiffé h1{
+text-align: center;
+margin-top: 0;
+font-weight: bolder;
+color: #fff;
+background-color: rgb(20, 192, 215);
+border-radius: 10px;
+}
 #Acoiffé_container {
   display: flex; 
   width: 100%;

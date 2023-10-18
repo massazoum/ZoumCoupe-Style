@@ -1,6 +1,12 @@
 const times = document.getElementById("btntimes");
 const bars = document.getElementById("btnbars");
-const menumobile = document.getElementById("menumobile");
+const jaunne = document.getElementById("jaunne");
+const service1 = document.getElementById("service1");
+const boutiques1 = document.getElementById("boutiques1");
+const reservation1 = document.getElementById("reservation1");
+const contacter1 = document.getElementById("contacter1");
+const Accueil1 = document.getElementById("Accueil1");
+
 
 const sectionCards =document.getElementById("sectionCards");
 const cardswipper =document.getElementById("cardswipper");
@@ -187,15 +193,41 @@ afficheSwipper();
 times.addEventListener("click", function () {
   bars.style.display = 'block';
   times.style.display = 'none';
-  menumobile.style.display = 'none';
+  jaunne.style.display = 'none';
 });
 
 bars.addEventListener("click", function () {
   bars.style.display = 'none';
   times.style.display = 'block';
-  menumobile.style.display = 'block';
+  jaunne.style.display = 'block';
 });
 
+service1.addEventListener('click',()=>{
+  bars.style.display = 'block';
+  times.style.display = 'none';
+  jaunne.style.display = 'none';
+})
 
+boutiques1.addEventListener('click',()=>{
+  bars.style.display = 'block';
+  times.style.display = 'none';
+  jaunne.style.display = 'none';
+})
 
+contacter1.addEventListener('click',()=>{
+  bars.style.display = 'block';
+  times.style.display = 'none';
+  jaunne.style.display = 'none';
+})
 
+reservation1.addEventListener('click',()=>{
+  bars.style.display = 'block';
+  times.style.display = 'none';
+  jaunne.style.display = 'none';
+})
+
+Accueil1.addEventListener('click',()=>{
+  bars.style.display = 'block';
+  times.style.display = 'none';
+  jaunne.style.display = 'none';
+})
