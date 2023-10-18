@@ -22,9 +22,7 @@ const Acoiffé_container = document.getElementById('Acoiffé_container');
 </div>
       `;
       Acoiffé_container.appendChild(div)
-
-     });
-    
+     }); 
    } catch (error) {
      console.error(error);
    }
