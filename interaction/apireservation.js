@@ -15,10 +15,10 @@ const Acoiffé_container = document.getElementById('Acoiffé_container');
       div.className = 'clientprogramme';
       div.innerHTML=`
       <div>
-      <h2>${element.name}</h2>
-<h2>${element.numero}</h2>
-<h2>${element.date}</h2>
-<h2>${element.heur}</h2>
+      <h2><span>Nom:</span>${element.name}</h2>
+<h2><span>Adresse :</span>${element.numero}</h2>
+<h2><span>Date :</span>${element.date}</h2>
+<h2><span>Heur :</span>${element.heur}</h2>
 </div>
       `;
       Acoiffé_container.appendChild(div)

@@ -214,6 +214,10 @@ transition: 0.5s;
     border-radius: 15px;
   }
 
+  #clientprogramme {
+    color: #fff;
+  }
+
 /* Travailleur */
 
 #TravailleurSection {
@@ -355,8 +359,8 @@ height: 100%;
 }
 
 .clientprogramme {
-  height: 80%;
-  width: 200px;
+  height: 200px;
+  width: 150px;
   margin-top: 20px;
   border: #fff solid 1px;
   margin: 3px;
@@ -365,12 +369,18 @@ height: 100%;
  
 #Acoiffé_container {
   display: flex; 
+  width: 100%;
   flex-direction: row;
+  overflow-x: scroll;
 }
 
 #Acoiffé_container h2{
   color: #fff;
-  font-size: large;
+  font-size: medium;
+}
+
+#Acoiffé_container span {
+  color:red;
 }
 
 
