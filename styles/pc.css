@@ -8,7 +8,6 @@ body {
  box-sizing: content-box;
  background:url(/Media/imgaes/fondbody.jpg) fixed repeat;
  background-size: cover;
-
 }
 
 #body {
@@ -515,17 +514,12 @@ button:hover {
   color: #666;
 }
 
-
-/* Section boutique */
-
-/* Style de la section de la boutique */
 #boutique {
   text-align: center;
   padding: 20px;
   background-color: #fff;
 }
 
-/* Style des produits */
 .produit {
   display: inline-block;
   margin: 20px;
@@ -536,32 +530,27 @@ button:hover {
   max-width: 300px;
 }
 
-/* Style des images de produits */
 .produit img {
   width: 80%;
   height: 150px;
 }
 
-/* Style des titres de produits */
 .produit h3 {
   font-size: 18px;
   margin: 10px 0;
 }
 
-/* Style des descriptions de produits */
 .produit p {
   font-size: 14px;
   color: #666;
 }
 
-/* Style des prix de produits */
 .produit .prix {
   font-size: 20px;
   color: #007BFF;
   font-weight: bold;
 }
 
-/* Style des boutons "Ajouter au panier" */
 .produit button {
   background-color: #081f37;
   color: white;
@@ -577,8 +566,6 @@ button:hover {
 .produit button:hover {
   background-color: #0056b3;
 }
-
-/* footer pour la zone du developpeur web */
 
 .Portfolio span{
  color: tomato;
