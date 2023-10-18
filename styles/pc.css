@@ -620,3 +620,7 @@ button:hover {
 section {
   transition: 0.5s;
 }
+
+#jaunne {
+  display: none;
+}
