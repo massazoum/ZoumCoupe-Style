@@ -54,7 +54,6 @@
     padding-top: 30px;
     color: #fff;
     height: auto;
-    padding-bottom: 25px;
    }
 
    #footer {
@@ -143,6 +142,11 @@
 
      .row h2 {
       font-size: medium;
+     }
+.popmode {
+      width: auto;
+      height: 25vh ;
+    
      }
 }
 
