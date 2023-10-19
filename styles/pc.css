@@ -116,14 +116,16 @@ header li i {
 #zoneAccueil h1 {
   position: absolute;
   left: 38%;
-  top: 3%;
+  top: 4%;
  font-size: 50px;
  color: rgb(218, 38, 38);
  background-color: #081f37;
  padding: 10px;
  border-radius: 30px;
 }
-
+#btnbars {
+  display: none;
+ }
 /* Services */
 
 #services {

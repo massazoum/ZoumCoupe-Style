@@ -35,9 +35,7 @@
   }
 
   #zoneAccueil h1 {
-    font-size: xx-large;
-    text-align: center;
-    margin-top: 10%; 
+ display: none;
   }
 
   #menumobie {
@@ -148,6 +146,47 @@
       height: 25vh ;
     
      }
+     #programmer {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      opacity: 0.9;
+     }
+
+     .reservation_containeur,.dispoHeurs_containeur {
+      width: auto;
+      margin: 30px 10px 30px 10px;
+     }
+
+     #btnbars {
+      display: block;
+     }
+     #jaunne {
+      position: fixed;
+      top:0;
+      left: 0;
+      z-index: 100;
+      height: 98vh;
+      width: 98vw;
+      background-color: yellow
+     }
+    
+     #jaunne ul{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+     }
+    
+     #jaunne ul li {
+      margin-bottom: 20px;
+     }
+    
+     #jaunne ul li a{
+      font-size: larger;
+      color: #0f8a61;
+     }
+     
+    
 }
 
 
@@ -183,31 +222,7 @@
     padding-bottom: 80px;
   }
 
-  #jaunne {
-    position: fixed;
-    top:0;
-    left: 0;
-    z-index: 100;
-    height: 98vh;
-    width: 98vw;
-    background-color: yellow
-   }
-  
-   #jaunne ul{
-  position: absolute;
-  top: 20%;
-  left: 30%;
-   }
-  
-   #jaunne ul li {
-    margin-bottom: 20px;
-   }
-  
-   #jaunne ul li a{
-    font-size: larger;
-    color: #0f8a61;
-   }
-   
+
    #rouge {
     position: fixed;
     top:0;
@@ -217,6 +232,7 @@
     width: 96vw;
     background-color: red;
    }
+  
 }
 
 @media (max-width: 969px) {
