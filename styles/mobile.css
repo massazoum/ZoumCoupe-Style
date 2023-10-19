@@ -259,7 +259,7 @@
   }
 
   #Horaire, #gmail, #numero {
-    float: none; /* Reset float */
+    float: none;
     font-family: 'Roboto', sans-serif;
   }
 }
