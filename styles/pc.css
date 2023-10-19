@@ -185,7 +185,6 @@ transition: 0.5s;
  color: #fff;
  height: 50vh;
  padding-bottom: 15px;
-
 }
 
 #apropos {
@@ -518,6 +517,7 @@ button:hover {
   text-align: center;
   padding: 20px;
   background-color: #fff;
+  margin-top: -40px;
 }
 
 .produit {
