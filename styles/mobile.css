@@ -140,6 +140,10 @@
       border:none;
       border-radius: 50%;
      }
+
+     .row h2 {
+      font-size: medium;
+     }
 }
 
 
