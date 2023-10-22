@@ -1,0 +1,272 @@
+@media (max-width: 768px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: url(/Media/imgaes/fondbody.jpg) fixed repeat;
+    background-size: cover;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #prevInfo {
+    padding: 1px 50px 50px 0;
+    height:auto;
+    background-color: #081f37;
+    width: auto;
+   }
+
+  * {
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  #body {
+    position: relative;
+    width: auto;
+  }
+  
+  header {
+    position: relative; 
+    width: 100%;
+    height: 60px;
+    z-index: 20;
+    padding-top: 20px;
+    background-color: #ffffffbe;
+    border-bottom: #f31414 solid 1px;
+  }
+
+  #jaunne, #rouge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #zoneAccueil h1 {
+ display: none;
+  }
+
+  #menumobie {
+    display: block; 
+  }
+
+  .sectionCard {
+    width: 100%; 
+    padding: 20px;
+  }
+  #equipe {
+    display: flex;
+    background-color: #081f37;
+    padding-top: 30px;
+    color: #fff;
+    height: auto;
+   }
+
+   #footer {
+    display: flex;
+    flex-direction: column;
+   }
+
+   #localisation {
+    width: 100%;
+    height: auto;
+    }
+    
+    #contact {
+    width: 100%;
+    height: auto;
+    }
+
+    .sectionCard {
+      position: relative;
+      width: 47%;
+      height: auto;
+      padding-bottom: 80px;
+     }
+  
+    .sectionCard p {
+      text-align: center;
+      font-size: x-small;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     .clientprogramme {
+      height: 170px;
+      width: 200px;
+      margin-top: 20px;
+      border: #fff solid 1px;
+      margin: 5px;
+      padding: 20px;
+    }
+
+    #equipe {
+      display: flex;
+      flex-direction: column;
+      background-color: #081f37;
+      padding-top: 30px;
+      color: #fff;
+      height: auto;
+      padding-bottom: 100px;
+      margin-left: 10px;
+     }
+     
+     #apropos {
+      width: auto;
+      padding: 20px;
+     }
+     
+     #popular {
+      margin-left: 10px;
+      width: auto;
+     }
+
+     header li a {
+      color: #081f37;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    header li i {
+      font-size: medium;
+    }
+
+    #service ,#boutiques,#reservation,#contacter,#Accueil {
+  display: none;
+    }
+
+    #btnbars , #btntimes {
+      position: fixed;
+      padding: 1px;
+      z-index: 1000;
+      height: 10px;
+      width: 10px;
+      left:10px;
+      top: 10px;
+      background: none;
+      border:none;
+      border-radius: 50%;
+     }
+
+     .row h2 {
+      font-size: medium;
+     }
+.popmode {
+      width: auto;
+      height: 25vh ;
+    
+     }
+     #programmer {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      opacity: 0.9;
+     }
+
+     .reservation_containeur,.dispoHeurs_containeur {
+      width: auto;
+      margin: 30px 10px 30px 10px;
+     }
+
+     #btnbars {
+      display: block;
+     }
+     #jaunne {
+      position: fixed;
+      top:0;
+      left: 0;
+      z-index: 100;
+      height: 98vh;
+      width: 98vw;
+      background-color: yellow
+     }
+    
+     #jaunne ul{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+     }
+    
+     #jaunne ul li {
+      margin-bottom: 20px;
+     }
+    
+     #jaunne ul li a{
+      font-size: larger;
+      color: #0f8a61;
+     }
+     
+    
+}
+
+
+@media (max-width: 379px) {
+  #prevInfo li a {
+    color: #fff;
+    font-size: small;
+  }
+  #prevInfo li i {
+    margin: 0 10px 10px 0;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header li {
+    margin-right: 10px;
+  }
+
+  header li a {
+    color: #081f37;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header li i {
+    font-size: larger;
+  }
+
+  .sectionCard {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+
+   #rouge {
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+    height: 96vh;
+    width: 96vw;
+    background-color: red;
+   }
+  
+}
+
+@media (max-width: 969px) {
+  #prevInfo {
+    height: 150px;
+    background-color: #081f37;
+  }
+
+  #prevInfo li {
+    margin: 10px;
+  }
+
+  i {
+    margin: 0 10px 10px 0;
+  }
+
+  #prevInfo li a {
+    color: #fff;
+    font-size: larger;
+  }
+
+  #Horaire, #gmail, #numero {
+    float: none;
+    font-family: 'Roboto', sans-serif;
+  }
+}
