@@ -9,6 +9,13 @@
     overflow-x: hidden;
   }
 
+  #prevInfo {
+    padding: 1px 50px 50px 0;
+    height:auto;
+    background-color: #081f37;
+    width: auto;
+   }
+
   * {
     outline: none;
     text-decoration: none;
@@ -102,7 +109,7 @@
       padding-top: 30px;
       color: #fff;
       height: auto;
-      padding-bottom: 60px;
+      padding-bottom: 100px;
       margin-left: 10px;
      }
      
